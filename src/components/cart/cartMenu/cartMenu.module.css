@@ -1,0 +1,50 @@
+.menu {
+  position: absolute;
+  z-index: 10;
+  top: 110%;
+  right: 0;
+  background-color: #364A63;
+  width: 350px;
+  padding: 20px;
+}
+
+.options {
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.options::-webkit-scrollbar {
+  opacity: 0;
+  width: 15px;
+  padding-inline: 2px;
+}
+
+.options::-webkit-scrollbar-thumb {
+  background-color: #293749;
+  border-radius: 50px;
+  border: 5px solid #364A63;
+}
+
+.priceline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #BEEB14;
+}
+
+.emptycart {
+  text-align: center;
+}
+
+@media(max-width: 400px) {
+  .menu {
+    width: 85vw;
+  }
+}

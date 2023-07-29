@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html, body {
+  background-color: #1B2838;
+  color: #FFF;
+}

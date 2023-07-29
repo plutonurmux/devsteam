@@ -1,0 +1,63 @@
+.gamecard {
+  display: flex;
+  background-color: #2983AA;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.category {
+  color: #C7C7C7;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.price {
+  color: #BEEB14;
+  font-size: 32px;
+}
+
+.buttoncontainer {
+  width: 220px;
+}
+
+@media(max-width: 785px) {
+  .gamecard {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 485px) {
+    .pricing {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .buttoncontainer {
+      width: 100%;
+    }
+  }
+}

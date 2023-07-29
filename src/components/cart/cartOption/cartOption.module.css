@@ -1,0 +1,41 @@
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  padding-block: 10px;
+}
+
+.option:first-child {
+  padding-top: 0;
+}
+
+.option:not(.option:last-child) {
+  border-bottom: 1px solid #435C7A;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.title, .price {
+  font-size: 16px;
+}
+
+.price {
+  color: #BEEB14;
+}
+
+.remove {
+  color: #F00;
+  font-size: 11px;
+  font-style: italic;
+  cursor: pointer;
+}

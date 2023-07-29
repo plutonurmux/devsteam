@@ -1,0 +1,10 @@
+.container {
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 40px;
+  transition: .3s;
+}
+
+.dark {
+  filter: brightness(.2);
+}
