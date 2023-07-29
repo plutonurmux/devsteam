@@ -43,10 +43,3 @@ Depois, é só abrir [http://localhost:3000](http://localhost:3000) com o seu na
 
 - [Protótipo](https://www.figma.com/file/l44Im9sVcHoO0u1Xh3tqtD/DevSteam?type=design&node-id=0%3A1&mode=design&t=quSHeWm5vEGolVQp-1)
 - [Site](https://devsteam-lake.vercel.app)
-
-## Redes sociais:
-
-Me acompanhe nas redes sociais!
-- [Instagram](https://www.instagram.com/lukinhaxdlc/)
-- [Linkedin](https://www.linkedin.com/in/lucas-santos-gomes)
-- [GitHub](https://www.github.com/lucas-dos-santos-gomes)
